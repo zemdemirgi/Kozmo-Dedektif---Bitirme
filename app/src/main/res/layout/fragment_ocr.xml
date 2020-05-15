@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+
+    <EditText
+        android:id="@+id/productName"
+        android:background="@drawable/rounded_edittext_beyaz"
+        android:textColor="#7d8288"
+        android:textColorHint="#7d8288"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="15dp"
+        android:ems="10"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:hint="Ürün adını giriniz"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/text_value"
+        android:layout_width="match_parent"
+        android:layout_height="167dp"
+        android:layout_margin="@dimen/fab_margin"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/border"
+        android:importantForAutofill="no"
+        android:minHeight="@dimen/text_value_min_height"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        app:layout_constraintEnd_toEndOf="@+id/productName"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/productName"
+        app:layout_constraintTop_toBottomOf="@+id/productName" />
+
+    <CheckBox
+        android:id="@+id/use_flash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/fab_margin"
+        android:layout_marginTop="76dp"
+        android:checked="false"
+        android:text="@string/use_flash"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/read_text_button"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/rounded_button_mor"
+        android:layout_width="match_parent"
+        android:layout_height="27dp"
+        android:layout_margin="@dimen/fab_margin"
+        android:text="@string/read_text"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="@id/text_value"
+        app:layout_constraintStart_toStartOf="@id/text_value"
+        app:layout_constraintTop_toBottomOf="@+id/use_flash" />
+
+    <Button
+        android:id="@+id/copy_text_button"
+        android:layout_width="match_parent"
+        android:background="@drawable/rounded_button_mor"
+        android:layout_height="27dp"
+        android:layout_margin="@dimen/fab_margin"
+        android:layout_marginTop="88dp"
+        android:text="@string/copy_text"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="@id/text_value"
+        app:layout_constraintStart_toStartOf="@id/text_value"
+        app:layout_constraintTop_toBottomOf="@+id/read_text_button" />
+
+
+    <Button
+        android:id="@+id/save_firebase"
+        android:layout_width="match_parent"
+        android:layout_height="27dp"
+        android:background="@drawable/rounded_button_mor"
+        android:layout_margin="@dimen/fab_margin"
+        android:layout_marginTop="80dp"
+        android:text="@string/send_us_text"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="@id/text_value"
+        app:layout_constraintStart_toStartOf="@id/text_value"
+        app:layout_constraintTop_toBottomOf="@+id/mail_text_button" />
+
+    <Button
+        android:id="@+id/mail_text_button"
+        android:layout_width="match_parent"
+        android:layout_height="27dp"
+        android:layout_margin="@dimen/fab_margin"
+        android:layout_marginTop="112dp"
+        android:background="@drawable/rounded_button_mor"
+        android:text="@string/send_email_text"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="@id/text_value"
+        app:layout_constraintStart_toStartOf="@id/text_value"
+        app:layout_constraintTop_toBottomOf="@+id/copy_text_button" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="27dp"
+        android:layout_margin="@dimen/fab_margin"
+        android:background="@drawable/rounded_button_mor"
+        android:text="Barkodu Ekle"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/barcodeText" />
+
+    <TextView
+        android:id="@+id/barcodeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="@dimen/fab_margin"
+        android:layout_marginTop="112dp"
+        android:hint="Barkod"
+        app:layout_constraintStart_toStartOf="@+id/text_value"
+        app:layout_constraintTop_toBottomOf="@+id/text_value" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

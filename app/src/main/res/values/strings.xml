@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Kozmo Dedektif</string>
+    <string name="title_home">Anasayfa</string>
+    <string name="title_search">Arama Yap</string>
+    <string name="title_favourite">Favorilerim</string>
+    <string name="title_ocr">OCR</string>
+    <string name="title_product">Ürün Bilgisi</string>
+    <string name="title_notFoundProduct">Ürün Bulunamadı</string>
+
+    <string name="barcode_read">Barkod Okut.</string>
+    <string name="scanner_activity">Barkod</string>
+    <string name="nv_home">Anasayfa</string>
+    <string name="nv_search">Arama</string>
+    <string name="nv_favorite">Favoriler</string>
+    <string name="title_activity_bottom_navigation">BottomNavigation</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Tespit için kameraya erişim gerekir</string>
+    <string name="no_camera_permission">Bu uygulama kamera iznine sahip olmadığından çalıştırılamıyor. Uygulamadan şimdi çıkacaktır.</string>
+    <string name="low_storage_error">Ocr dependencies cannot be downloaded due to low device storage</string>
+    <string name="ocr_header">OCR</string>
+    <string name="read_text">Fotoğrafı Okut</string>
+    <string name="auto_focus">Auto Focus</string>
+    <string name="use_flash">Flash kullan</string>
+    <string name="ocr_success">Başarıyla okundu</string>
+    <string name="ocr_failure">No text captured</string>
+    <string name="ocr_error">"Hatalı okuma: %1$s"</string>
+    <string name="send_email_text">Email Gönder</string>
+    <string name="send_us_text">Bize Gönder</string>
+    <string name="mail_intent_chooser_text">Mail Gönder...</string>
+    <string name="no_email_client_error">There are no email clients installed.</string>
+    <string name="no_send_us_error">Please try again.</string>
+    <string name="copy_text">Metni Kopyala</string>
+    <string name="clipboard_copy_successful_message">Metin kopyalandı.</string>
+    <string name="open_scan_for_text">Ürünü metin ile ara</string>
+    <string name="open_scan_for_barcode">Ürünü barkod ile ara</string>
+</resources>

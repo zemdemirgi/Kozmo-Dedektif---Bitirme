@@ -1,1 +1,1 @@
-# Kozmo-Dedektif---Bitirme
+# Kozmo-Dedektif

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "343521002568",
+    "firebase_url": "https://dedektif2-86add.firebaseio.com",
+    "project_id": "dedektif2-86add",
+    "storage_bucket": "dedektif2-86add.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343521002568:android:4cc63b0515f29d74e2447d",
+        "android_client_info": {
+          "package_name": "com.example.kozmodedektifwithnavbar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "343521002568-a1thl1kg17vaeqb16ev6u1sti8stq8ob.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCemqD9rbaMcA7iZt_7aUvvo-5AxAyfWCA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "343521002568-a1thl1kg17vaeqb16ev6u1sti8stq8ob.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "343521002568-am6b220p2s5n2ui8n7l0q5mjmma5vdhd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.hulyaaydemir.dedektif2"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
